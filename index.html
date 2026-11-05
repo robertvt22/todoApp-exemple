@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/public/check-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>To Do - welcome</title>
+</head>
+
+<body>
+
+  <div class="app">
+
+    <main class="main-dashboard">
+      <div class="container-main">
+        <div class="top-main">
+          <div class="todo-calendar">
+            <button type="button" class="btn-arrow btn-arrowLeft">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div class="todo-dates">
+              <h2 class="todo-date">11 September 2001</h2>
+              <div class="calendar-btn-wrap">
+                <button type="button" class="btn-calendar" id="btnCalendar">
+                  <i class="fa-regular fa-calendar"></i>
+                </button>
+                <input type="date" class="hidden-date" id="hiddenDate" />
+              </div>
+            </div>
+
+            <button type="button" class="btn-arrow btn-arrowRight">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="todo-info">
+            <h1 class="todo-title">My today's task</h1>
+            <div class="todo-stats">
+              <h2 class="todo-taskDone"></h2>
+              <span>/</span>
+              <h2 class="todo-taskAll"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="middle-main">
+          <div class="todo-boxInput">
+            <input type="text" class="todo-input" placeholder="Add Task...">
+          </div>
+          <div class="todo-boxBtnAdd">
+            <button type="submit" class="btn-add">+</button>
+          </div>
+        </div>
+        <div class="bottom-main">
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-dashboard">
+      <p class="footer-description">
+        ©2026 Maverick inc. <br>
+        All rights reserved.
+      </p>
+    </footer>
+
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
